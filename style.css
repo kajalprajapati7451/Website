@@ -144,7 +144,7 @@ section {
   padding: 0.8rem 1.6rem;
   font-size: 0.95rem;
   font-weight: 700;
-  border-radius: 0.5rem;
+  border-radius: 50px;
   border: 2px solid transparent;
   cursor: pointer;
   transition: var(--transition);
@@ -2000,6 +2000,7 @@ body {
     align-items: center;
     /* add — buttons center mein rahenge */
     width: 100%;
+    margin: 0 auto;
   }
 
   .hero-actions-row .btn {
@@ -2084,7 +2085,8 @@ body {
 }
 
 .faq-item.active .faq-answer {
-  max-height: 200px; /* arbitrary large value */
+  max-height: 200px;
+  /* arbitrary large value */
 }
 
 .faq-item.active .faq-answer p {
